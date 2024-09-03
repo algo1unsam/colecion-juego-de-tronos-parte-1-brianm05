@@ -9,9 +9,6 @@ object daenerys{
     method puedeLevantar(){
         return artefactos.size()<cantidadMaX
     }
-    method puedeLevantar(){
-        return artefactos.size()<cantidadMaX
-    }
 
     method encontrarArtef(artefacto) {
         if (self.puedeLevantar()){
@@ -34,19 +31,15 @@ object daenerys{
     method historiaArtefactos() {
         return historiaObjetos
     }
-
-
 }
-
-
 
 object EspadaDeDragon{}
 object LibroDeMagiaAncestral{}
 object CollarDeFuego{}
 object ArmaduraDeAceroValyrio{}
 
-//d.encontrarArtef(CollarDeFuego)
-//d.enRocadragon()
-//d.encontrarArtef(ArmaduraDeAceroValyrio)
-//d.artefactosAll()
-//d.artefactosEspecifico(artefacto)
+//daenerys.encontrarArtef(CollarDeFuego)
+//daenerys.enRocadragon()
+//daenerys.encontrarArtef(ArmaduraDeAceroValyrio)
+//daenerys.artefactosAll()
+//daenerys.artefactosEspecifico(artefacto)
